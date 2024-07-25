@@ -55,7 +55,7 @@ Healthcare records often contain critical information about a patient's diagnosi
 
 1. Run the Flask application:
    <br/>
-   ```python run.py```
+   ```python app.py```
 2. Access the web application:
    <br/>
    ```Open your browser and go to http://127.0.0.1:5000```
