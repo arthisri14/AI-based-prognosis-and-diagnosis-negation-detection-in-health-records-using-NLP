@@ -42,10 +42,12 @@ Healthcare records often contain critical information about a patient's diagnosi
 2. Create a virtual environment and activate it:
    <br/>
    ```python -m venv venv```
+   <br/>
    ```source venv/bin/activate```
+   <br/>
    ```On Windows use `venv\Scripts\activate` ```
 
-3. Install the required packages:
+4. Install the required packages:
    <br/>
    ```pip install -r requirements.txt```
 
@@ -55,4 +57,36 @@ Healthcare records often contain critical information about a patient's diagnosi
    <br/>
    ```python run.py```
 2. Access the web application:
-   
+   <br/>
+   ```Open your browser and go to http://127.0.0.1:5000
+3. Upload radiology reports and view the negation detection results.
+
+## Datasets
+
+The radiology reports dataset is obtained from open-source dataset directories available on the internet. 
+The preprocessing includes extracting text from PDF documents using NLP techniques.
+
+## Models and Algorithms
+
+Recurrent Neural Network (RNN): Used for processing and analyzing sequential data from the radiology reports.<br/>
+Negex Algorithm: Implemented using negspacy to detect negations in the medical text.
+
+## Dashboard Analytics
+
+The Power BI dashboard provides insightful visualizations of the negation detection results, offering an overview of the data and helping in better decision-making.
+
+## Web Application
+
+The web application, built using Flask, integrates all components and provides an interactive interface for users to upload reports and view results.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for review.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+Special thanks to the open-source community for providing the datasets and tools necessary for this project.
