@@ -34,5 +34,25 @@ Healthcare records often contain critical information about a patient's diagnosi
 ## Installation
 
 1. Clone the repository:
+   <br/>
    ```git clone https://github.com/arthisri14/AI-based-prognosis-and-diagnosis-negation-detection-in-health-records-using-NLP.git```
    ```cd AI-based-prognosis-and-diagnosis-negation-detection-in-health-records-using-NLP```
+   <br/>
+
+2. Create a virtual environment and activate it:
+   <br/>
+   ```python -m venv venv```
+   ```source venv/bin/activate```
+   ```On Windows use `venv\Scripts\activate` ```
+
+3. Install the required packages:
+   <br/>
+   ```pip install -r requirements.txt```
+
+## Usage
+
+1. Run the Flask application:
+   <br/>
+   ```python run.py```
+2. Access the web application:
+   
